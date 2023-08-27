@@ -1,4 +1,4 @@
-<div hx-get="api.php?type=user&value=<?= $user->getUsername() ?>" hx-swap="innerHTML" hx-indicator="#spinner" hx-trigger="every 120s">
+<div hx-get="<?= env("ext_url") ?>/api.php?type=user&value=<?= $user->getUsername() ?>" hx-swap="innerHTML" hx-indicator="#spinner" hx-trigger="every 120s">
     <?php include_once("back_button.php") ?>
 
     <section class="container">

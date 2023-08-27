@@ -172,9 +172,9 @@ $value = isset($_GET["value"]) ? $_GET["value"] : null;
         </div>
 
         <?php if (($type != null && $value != null) || $type == "streak") { ?>
-            <div hx-get="/api.php?type=<?= $type ?>&value=<?= $value ?>" hx-swap="innerHTML" hx-trigger="load" hx-indicator="#spinner" id="htmx"></div>
+            <div hx-get="<?= env("ext_url") ?>/api.php?type=<?= $type ?>&value=<?= $value ?>" hx-swap="innerHTML" hx-trigger="load" hx-indicator="#spinner" id="htmx"></div>
         <?php } else { ?>
-            <div hx-get="/api.php" hx-swap="innerHTML" hx-trigger="load" hx-indicator="#spinner" id="htmx"></div>
+            <div hx-get="<?= env("ext_url") ?>/api.php" hx-swap="innerHTML" hx-trigger="load" hx-indicator="#spinner" id="htmx"></div>
         <?php } ?>
 
 
