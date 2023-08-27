@@ -72,8 +72,8 @@ if ($user) {
     $streak = $streakManager->getStreakByUserId($userId);
     $firstMessageDate = $messageManager->getFirstPostDateByUserId($userId);
     $lastMessageDate = $messageManager->getLastPostDateByUserId($userId);
-    $endDate = date("Y-m-d");
-    $startDate = date("Y-m-d", strtotime("-1 month", strtotime($endDate)));
+    $endDate = date("Y-m-t");
+    $startDate = date("Y-m-d", strtotime("-5 months", strtotime($endDate)));
     $heatmapData = $messageManager->getHeatmapDataByUserIdAndDate($userId, $startDate, $endDate);
 
     if ($page == 1) {
