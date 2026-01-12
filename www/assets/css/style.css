@@ -810,104 +810,87 @@ footer a>svg:hover {
     transform: scale(1.1)
 }
 
-@media (prefers-color-scheme: dark) {
-    .card {
-        background-color: #282828;
-        color: #e1e0e2
-    }
-
-    .info a,
-    .post-text a,
-    a.post-text-mention:hover {
-        color: #e1e0e2
-    }
-
-    .info,
-    .tag,
-    .user,
-    .explore-tags,
-    .stats,
-    .back {
-        background-color: #282828;
-        color: #e1e0e2
-    }
-
-    .post-content a {
-        color: #e1e0e2;
-        text-decoration: underline
-    }
-
-    .post-content blockquote {
-        background-color: #1e1f1d;
-        border-left: .25em solid #e1e0e2;
-        color: #e1e0e2
-    }
-
-    .post-content code,
-    .post-content pre {
-        background-color: #1e1f1d !important
-    }
-
-    .post-elem {
-        background-color: #282828
-    }
-
-    .post-header-date {
-        color: #e1e0e299;
-        font-size: 15px;
-        font-weight: 700
-    }
-
-    .post-tag,
-    .explore-tags-tag {
-        background-color: #1e1f1d;
-        border: 1px #1e1f1d
-    }
-
-    .post-tag:focus,
-    .post-tag:hover,
-    .explore-tags-tag:focus,
-    .explore-tags-tag:hover {
-        background-color: #1e1f1d99;
-        border-color: #1e1f1d99
-    }
-
-    .spinner,
-    .gloader {
-        border: .25em solid #e1e0e2;
-        border-right-color: transparent
-    }
-
-    .top-border {
-        border-top: 6px solid #e1e0e2
-    }
-
-    .top-logo,
-    .logo,
-    .background-logo {
-        filter: invert(100%)
-    }
-
-    a.post-text-mention {
-        color: #e1e0e2c4
-    }
-
-    .user-info-streak-img,
-    .post-header-streak-img,
-    .stats-item-user-streak-img {
-        filter: invert(100%);
-    }
-
-    body {
-        background-color: #1e1f1d;
-        color: #e1e0e2
-    }
-
-    footer a>svg {
-        fill: #e1e0e299
-    }
-
-    footer a>svg:hover {
-        fill: #e1e0e2
-    }
+/*@media (prefers-color-scheme: dark) {*/
+.card {
+    background-color: #282828;
+    color: #e1e0e2
 }
+.info a,
+.post-text a,
+a.post-text-mention:hover {
+    color: #e1e0e2
+}
+.info,
+.tag,
+.user,
+.explore-tags,
+.stats,
+.back {
+    background-color: #282828;
+    color: #e1e0e2
+}
+.post-content a {
+    color: #e1e0e2;
+    text-decoration: underline
+}
+.post-content blockquote {
+    background-color: #1e1f1d;
+    border-left: .25em solid #e1e0e2;
+    color: #e1e0e2
+}
+.post-content code,
+.post-content pre {
+    background-color: #1e1f1d !important
+}
+.post-elem {
+    background-color: #282828
+}
+.post-header-date {
+    color: #e1e0e299;
+    font-size: 15px;
+    font-weight: 700
+}
+.post-tag,
+.explore-tags-tag {
+    background-color: #1e1f1d;
+    border: 1px #1e1f1d
+}
+.post-tag:focus,
+.post-tag:hover,
+.explore-tags-tag:focus,
+.explore-tags-tag:hover {
+    background-color: #1e1f1d99;
+    border-color: #1e1f1d99
+}
+.spinner,
+.gloader {
+    border: .25em solid #e1e0e2;
+    border-right-color: transparent
+}
+.top-border {
+    border-top: 6px solid #e1e0e2
+}
+.top-logo,
+.logo,
+.background-logo {
+    filter: invert(100%)
+}
+a.post-text-mention {
+    color: #e1e0e2c4
+}
+.user-info-streak-img,
+.post-header-streak-img,
+.stats-item-user-streak-img {
+    filter: invert(100%);
+}
+body {
+    background-color: #1e1f1d;
+    color: #e1e0e2
+}
+footer a>svg {
+    fill: #e1e0e299
+}
+footer a>svg:hover {
+    fill: #e1e0e2
+}
+/*}*/
