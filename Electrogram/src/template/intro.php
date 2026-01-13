@@ -2,7 +2,7 @@
     <section class="container">
         <div class="info">
             <p>club elec electrogram est un moyen simple pour permettre aux étudiants et au personnel de l’UPJV de mettre en avant ce qu’ils font <a href="<?= env("ext_url") ?>/streak" hx-get="<?= env("ext_url") ?>/api.php?type=streak" hx-replace-url="<?= env("ext_url") ?>/streak" hx-target="#htmx">tous les jours</a> dans le domaine des sciences et technologies.
-                <br>Rejoignez notre <a href="https://discord.clubelec.org">serveur Discord</a> pour prendre part à l’aventure !
+                <br>Rejoignez notre <a href="https://discord.com/invite/Qn728S9qtW">serveur Discord</a> pour prendre part à l’aventure !
             </p>
         </div>
     </section>
